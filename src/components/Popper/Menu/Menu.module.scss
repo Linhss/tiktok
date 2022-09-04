@@ -1,0 +1,28 @@
+.Menu-list {
+    width: 224px;
+    
+    .menu-item {
+     background-color: transparent;
+     padding: 10px 10px;
+     font-weight: 600;
+     font-size: 16px;
+     color: rgba(22, 24, 35, 1.0);
+    }
+}
+
+.Menu-popper {
+    padding-bottom: 0 ;
+}
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0;
+    padding: 11px 16px;
+    &:hover {
+        background-color: rgb(22, 24, 35, 0.03);
+       
+    }
+}
+
